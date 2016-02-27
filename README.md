@@ -1,12 +1,12 @@
 
 # Sublime Text Setup
 
-### Plugins Installed:
+### Plugins:
+* Package Control
 * Emmet
 * Git
 * GitGutter
 * One Dark Color Scheme
-* Package Control
 * Sass
 * SideBarEnhancements
 * Theme - Spacegray
@@ -40,7 +40,7 @@
 ```
 
 ### Key Bindings - User:
-(Make OSX Home & End key act the way I want em to)
+(Make OSX Home & End key act the way I want 'em to)
 ```sh
 { "keys": ["home"], "command": "move_to", "args": {"to": "bol"} },
 { "keys": ["end"], "command": "move_to", "args": {"to": "eol"} },
