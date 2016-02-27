@@ -4,10 +4,12 @@
 ### Plugins:
 * Package Control
 * Emmet
+* AutoFileName
 * Git
 * GitGutter
 * One Dark Color Scheme
 * Sass
+* jQuery
 * SideBarEnhancements
 * Theme - Spacegray
 
