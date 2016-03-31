@@ -1,3 +1,18 @@
+
+# Sublime Text Setup
+
+### Plugins:
+* Package Control
+* Emmet
+* AutoFileName
+* Git
+* GitGutter
+* Sass
+* jQuery
+* SideBarEnhancements
+
+### Settings - User:
+```sh
 {
 	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
@@ -28,3 +43,13 @@
 	"theme_otto_tab_selected_prelined": true,
 	"word_wrap": "false"
 }
+```
+
+### Key Bindings - User:
+(Make OSX Home & End key act the way I want 'em to)
+```sh
+{ "keys": ["home"], "command": "move_to", "args": {"to": "bol"} },
+{ "keys": ["end"], "command": "move_to", "args": {"to": "eol"} },
+{ "keys": ["shift+end"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+{ "keys": ["shift+home"], "command": "move_to", "args": {"to": "bol", "extend": true } }
+```
